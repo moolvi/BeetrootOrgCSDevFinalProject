@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charyti.Api", "Charyti.Api\Charyti.Api.csproj", "{4BA0E6A6-F0AB-431A-8A60-C6B3463BB252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charyti.Contracts", "Charyti.Contracts\Charyti.Contracts.csproj", "{87241B98-BCD5-4931-9654-3F4B2ECDC7FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charyti.Domain", "Charyti.Domain\Charyti.Domain.csproj", "{2B144BF8-BBB2-4634-82E2-598A1215A315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charyti.IntegrationTests", "Charyti.IntegrationTests\Charyti.IntegrationTests.csproj", "{8D9E2948-BCCF-4F0C-93DA-875BD6E30213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charyti.UnitTests", "Charyti.UnitTests\Charyti.UnitTests.csproj", "{CFF8A978-BF37-41A8-A51D-C28B3D8862D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BA0E6A6-F0AB-431A-8A60-C6B3463BB252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA0E6A6-F0AB-431A-8A60-C6B3463BB252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA0E6A6-F0AB-431A-8A60-C6B3463BB252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA0E6A6-F0AB-431A-8A60-C6B3463BB252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87241B98-BCD5-4931-9654-3F4B2ECDC7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87241B98-BCD5-4931-9654-3F4B2ECDC7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87241B98-BCD5-4931-9654-3F4B2ECDC7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87241B98-BCD5-4931-9654-3F4B2ECDC7FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B144BF8-BBB2-4634-82E2-598A1215A315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B144BF8-BBB2-4634-82E2-598A1215A315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B144BF8-BBB2-4634-82E2-598A1215A315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B144BF8-BBB2-4634-82E2-598A1215A315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9E2948-BCCF-4F0C-93DA-875BD6E30213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9E2948-BCCF-4F0C-93DA-875BD6E30213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9E2948-BCCF-4F0C-93DA-875BD6E30213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9E2948-BCCF-4F0C-93DA-875BD6E30213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF8A978-BF37-41A8-A51D-C28B3D8862D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF8A978-BF37-41A8-A51D-C28B3D8862D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF8A978-BF37-41A8-A51D-C28B3D8862D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF8A978-BF37-41A8-A51D-C28B3D8862D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
